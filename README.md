@@ -22,8 +22,19 @@ Furthermore, in production, whenever `<Link>` components appear in the browser's
 
 Next.js automatically prefetches the code for the linked route in the background. By the time the user clicks the link, the code for the destination page will already be loaded in the background, and this is what makes the page transition near-instant!
 
----
-
-**Showing active links with `usePathname`**
+**+ Showing active links with `usePathname`**
 
 `usePathname` is a Client Component hook that lets you read the current URL's pathname.
+
+---
+
+### Setting database with postgres
+
+if you're confusing with following [chapter6](https://nextjs.org/learn/dashboard-app/setting-up-your-database), <br/>
+I recommend [this blog](https://dev.to/w3tsa/next-js-14-setting-up-your-database-4ank) that has more explanations.
+
+> What is 'seeding' in the context of databases?
+
+**Populating the database with an initial set of data**
+
+Seeding is useful when you want to have some data to work with as you build your application.
